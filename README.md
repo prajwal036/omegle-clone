@@ -18,30 +18,6 @@ A real-time chat application that connects users with random strangers from arou
 - **Database**: MongoDB with Mongoose
 - **Real-time**: Socket.io for WebSocket connections
 
-## Project Structure
-
-```
-omgle-clone/
-├── app/                    # Next.js 15 app directory
-│   ├── layout.tsx         # Root layout
-│   ├── page.tsx           # Main chat page
-│   └── globals.css        # Global styles
-├── components/
-│   └── ui/                # shadcn UI components
-├── hooks/
-│   └── useSocket.ts       # Socket.io client hook
-├── lib/
-│   └── utils.ts           # Utility functions
-├── server/                 # Express backend
-│   ├── index.js           # Server entry point
-│   ├── config/
-│   │   └── database.js    # MongoDB connection
-│   ├── models/            # Mongoose models
-│   ├── services/          # Business logic
-│   └── socket/            # Socket.io handlers
-└── package.json
-```
-
 ## Getting Started
 
 ### Prerequisites
